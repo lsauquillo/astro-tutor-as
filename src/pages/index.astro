@@ -4,20 +4,29 @@ import Layout from "../components/layout.astro";
 
 <Layout titlePage="Inicio" descriptionPage="Menú principal">
 	<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/productos/">Productos</a>
-		<h1 id="astro">Astro desde VS code</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui ipsa impedit dolore. Blanditiis odio sapiente saepe velit impedit.</p>
-		
-		<p>Lorem ipsum dolor sit amet.</p>
-		<script>
-			const myElement = document.getElementById("astro");
-			myElement.style.color = "navy";	
-		</script>
-			
-		<style>
-			body{
-				background-color: lightgray;
-			}
-		</style>
+	<a href="/about/">About</a>
+	<a href="/productos/">Productos</a>
+	<a href="/blogs/">Blogs</a>
+	<h1 id="astro">Astro desde VS code</h1>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui
+		ipsa impedit dolore. Blanditiis odio sapiente saepe velit impedit.
+	</p>
+
+	<p>Lorem ipsum dolor sit amet.</p>
+	<style>
+		body {
+			background-color: lightgray;
+		}
+		a {
+			text-decoration: none;
+			background-color: goldenrod;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 8px;
+			margin: 30px;
+		}
+	</style>
+
+	
 </Layout>

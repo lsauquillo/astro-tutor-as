@@ -1,3 +1,19 @@
-<h1>Indice para blogs</h1>
+---
+import Layout from "../../components/layout.astro";
+---
 
-<a href="/blogs/blog1"></a>
+<Layout titlePage="Bogs" descriptionPage="Relación de Blogs">
+  <h1>Índice para blogs</h1>
+  <a href="/blogs/blog1">Blog núm. 1</a>
+  <a href="/blogs/blog2">Blog núm. 2</a>
+  <style>
+    a {
+      text-decoration: none;
+      background-color: goldenrod;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 30px;
+    }
+  </style>
+</Layout>

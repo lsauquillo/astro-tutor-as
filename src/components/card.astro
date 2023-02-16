@@ -1,9 +1,9 @@
 ---
-interface props {
-    nombre: string
+interface Props {
+    nombre?: string
     profesion?: string
 }
-const {nombre, profesion="default"} = Astro.props;
+const {nombre="default", profesion="default"} = Astro.props;
 ---
 
 <div class="card">
